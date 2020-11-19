@@ -3,13 +3,13 @@ package arrays;
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
 		//1. make an array of 5 Strings
-		
+		String[] names = {"josh","james","john","jimmy","jasper"};
 		//2. print the third element in the array
-		
+		System.out.println(names[2]);
 		//3. set the third element to a different value
-		
+		names[2] = "jeffrey";
 		//4. print the third element again
-		
+		System.out.println(names[2]);
 		//5. use a for loop to print all the values in the array
 		//   BE SURE TO USE THE ARRAY'S length VARIABLE
 		
