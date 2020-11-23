@@ -1,10 +1,14 @@
 package arrays;
 
+import java.awt.Robot;
+
 public class _01_RobotRace {
 	//1. make a main method
+public static void main(String[] args) {
+	
 
 	//2. create an array of 5 robots.
-
+	Robot[] robs = {};
 	//3. use a for loop to initialize the robots.
 
 		//4. make each robot start at the bottom of the screen, side by side, facing up
@@ -19,4 +23,5 @@ public class _01_RobotRace {
 	//8. try different races with different amounts of robots.
 
 	//9. make the robots race around a circular track.
+}
 }
